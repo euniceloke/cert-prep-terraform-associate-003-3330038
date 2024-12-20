@@ -9,13 +9,13 @@ terraform {
 
 provider "aws" {
   region = "ap-southeast-2"
-  profile = "eunice"
+  # profile = "eunice"
   # Configuration options
 }
 
 provider "aws" {
   alias = "northeast"
   region = "ap-northeast-1"
-  profile = "eunice"
+  # profile = "eunice"
 }
 
